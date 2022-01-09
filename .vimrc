@@ -9,10 +9,14 @@ set linebreak
 set backspace=2
 set showcmd
 
+set background=dark
+
 let mapleader = "," 
 " Mapping to reload configuration 
 " Pressing ,so to source as a shortcut
 nmap <leader>so :source ~/.vimrc<CR>
+
+nmap q i<CR>
 
 " Opens the terminal at the vertical right
 nmap <leader>t :botright vertical terminal<CR>
@@ -85,5 +89,9 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 Plug 'Dinduks/vim-java-get-set'
 
+Plug 'sheerun/vim-polyglot'
+
+Plug 'jpalardy/vim-slime'
+let g:slime_target = "tmux"
 " Initialize plugin system
 call plug#end()
