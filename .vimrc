@@ -16,7 +16,9 @@ let mapleader = ","
 " Pressing ,so to source as a shortcut
 nmap <leader>so :source ~/.vimrc<CR>
 
+" My keymaps
 nmap q i<CR>
+nnoremap <C-i> i_<Esc>r
 
 " Opens the terminal at the vertical right
 nmap <leader>t :botright vertical terminal<CR>
