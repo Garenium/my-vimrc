@@ -94,6 +94,12 @@ Plug 'Dinduks/vim-java-get-set'
 Plug 'sheerun/vim-polyglot'
 
 Plug 'jpalardy/vim-slime'
+
+Plug 'mikelue/vim-maven-plugin'
+
+Plug 'hdiniz/vim-gradle'
+
+Plug 'tikhomirov/vim-glsl'
 let g:slime_target = "tmux"
 " Initialize plugin system
 call plug#end()
